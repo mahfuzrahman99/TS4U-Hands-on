@@ -1,0 +1,71 @@
+/* table file */
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+/* form file */
+.body_form {
+  background-color: bisque;
+}
+form {
+  margin: auto;
+  background-color: rgb(230, 226, 222);
+  padding: 20px;
+  box-sizing: border-box;
+  width: 400px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+select,
+input[type="text"],
+input[type="email"],
+input[type="tel"], 
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.div_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+}
+.h2_form {
+  text-align: center;
+}
+.gender_redio{
+    display: flex;
+}
